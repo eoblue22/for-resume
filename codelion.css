@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800&display=swap');
+
+* {
+    font-family: 'Montserrat';
+}
+
+body, h1,h2{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-width: fit-content;
+}
+
+.mainbox{
+    width: 610px;
+    border: 1px solid #ebebeb;;
+    box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlebox{
+    text-align: right;
+    padding: 10px;
+    margin: 5px;
+}
+
+.name-text{
+    color: #7c7c7c;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    font-size:20px;
+    color:#282828;
+    font-weight: lighter;
+    margin-bottom: 16px;
+    border-bottom: 1px solid #ebebeb;
+    padding-bottom: 5px;
+}
+
+.about-me-text{
+    font-size: 10px;
+    line-height: 16px;
+}
+
+footer{
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #919191;
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 24px;
+}
+
+.float-wrap{
+    overflow: hidden;
+    margin-bottom: 4px;
+}
+
+.title-text
+{
+    font-size: 11px;
+    font-weight: bold;
+    float: left;
+    color: #282828;
+}
+
+.year-text{
+    font-size: 11px;
+    font-weight: bold;
+    float: right;
+    color: #282828;
+}
+
+.des-text{
+    font-size: 11px;
+    margin-bottom: 6px;
+    color: #282828;
+}
+
+.subdes-text{
+    font-size: 11px;
+    padding-left: 16px;
+    margin-bottom: 8px;
+    color: #282828;
+}
+
+.sns-img{
+    width:30px;
+}
+
+.sns-wrap{
+    text-align: right;
+}
